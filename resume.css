@@ -1,0 +1,55 @@
+body {
+    background-color: #82A3A1;
+    font-family: Helvetica, sans-serif;
+}
+
+
+h1, h2, h3, h4{
+    line-height: 40%;
+}
+
+
+h4{
+    font-weight: normal;
+}
+
+div.content{
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0px 0px 200px;
+    line-height: 1.6;
+    }
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #465362;
+    overflow-x: hidden;
+  }
+    
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #C0DFA1;
+    color: black;
+  }
+
+  img{
+      max-width: 30px;
+      max-height: 30px;
+  }
+  
+  /* Style the content */
+  
