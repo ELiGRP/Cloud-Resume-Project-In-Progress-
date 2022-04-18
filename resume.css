@@ -1,5 +1,5 @@
 body {
-    background-color: #82A3A1;
+    background-color: #E5E5E5;
     font-family: Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ h4{
 }
 
 div.content{
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 20px 0px 0px 200px;
     line-height: 1.6;
@@ -28,7 +28,7 @@ div.content{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #465362;
+    background-color: #14213D;
     overflow-x: hidden;
   }
     
@@ -42,7 +42,7 @@ div.content{
   
   /* Change color on hover */
   .sidenav a:hover {
-    background-color: #C0DFA1;
+    background-color: #FCA311;
     color: black;
   }
 
