@@ -1,8 +1,22 @@
-body {
-    background-color: #E5E5E5;
-    font-family: Helvetica, sans-serif;
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_Lt.ttf);
 }
-
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_Bd.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Ember;
+    src: url(./amazon-web-fonts/Ember/AmazonEmber_LtIt.ttf);
+    font-style: italic;
+}
+body {
+    background-color: #f4f5f6;
+    font-family: Ember;
+    color: #2a2a2a;
+}
 
 h1, h2, h3, h4{
     line-height: 40%;
@@ -11,6 +25,21 @@ h1, h2, h3, h4{
 
 h4{
     font-weight: normal;
+}
+
+.header{
+    background-color:#232f3e;
+    color: white;
+    padding: 20px;
+    margin: 20px 0px 0px 200px;
+    line-height: 1.6
+}
+.header a {
+    color: white;
+    font-size: 24px
+}
+.header a:hover{
+    color: #FCA311
 }
 
 div.content{
@@ -28,7 +57,7 @@ div.content{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #14213D;
+    background-color: #232f3e;
     overflow-x: hidden;
   }
     
