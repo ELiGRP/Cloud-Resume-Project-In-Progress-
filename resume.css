@@ -67,9 +67,6 @@ div.content{
   }
 
 
-
-
-
   /* Side navigation links */
   .sidenav a {
     color: white;
@@ -81,7 +78,7 @@ div.content{
   /* Change color on hover */
   .sidenav a:hover {
     background-color: transparent;
-    color:#FCA311;
+    color: #F96900;
   }
  .sidenav i{
      font-size: 20px;
