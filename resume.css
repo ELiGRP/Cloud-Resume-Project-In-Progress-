@@ -12,6 +12,9 @@
     src: url(./amazon-web-fonts/Ember/AmazonEmber_LtIt.ttf);
     font-style: italic;
 }
+
+
+
 body {
     background-color: #f4f5f6;
     font-family: Ember;
@@ -21,7 +24,6 @@ body {
 h1, h2, h3, h4{
     line-height: 40%;
 }
-
 
 h4{
     font-weight: normal;
@@ -66,6 +68,16 @@ h4{
     border-width: .5px 2px 2px 2px;
     border-color: lightgray;
     box-shadow: 0px 1px 1px 0px lightgray;
+    }
+
+    .content a {
+        text-decoration: none;
+        color: #0077b6;
+    }
+    .content a :visited{
+        text-decoration: none;
+        color: #0077b6;
+
     }
 
 
