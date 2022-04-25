@@ -79,6 +79,7 @@ div.content{
   .sidenav a:hover {
     background-color: transparent;
     color: #F96900;
+    font-weight: bold;
   }
  .sidenav i{
      font-size: 20px;
