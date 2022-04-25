@@ -54,7 +54,7 @@ h4{
       }
 
         .header i {
-            font-size: 25px;
+            font-size: 28px;
         } 
 
 
@@ -93,6 +93,7 @@ h4{
     left: 0;
     background-color: #232f3e;
     overflow-x: hidden;
+    text-align: center;
   }
 
 
