@@ -27,20 +27,35 @@ h4{
     font-weight: normal;
 }
 
-.header{
-    background-color:#232f3e;
-    color: white;
+.header {
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 20px 0px 0px 200px;
-    line-height: 1.6
-}
-.header a {
-    color: white;
-    font-size: 24px
-}
-.header a:hover{
-    color: #FCA311
-}
+    line-height: 1.6;
+    border-style: solid;
+    border-width: .5px 2px 2px 2px;
+    border-color: lightgray;
+    box-shadow: 0px 1px 1px 0px lightgray;
+    }
+    .header a {
+        color: #232f3e;
+        padding: 5px;
+        text-decoration: none;
+        display: inline;
+    }
+      
+      /* Change color on hover */
+      .header a:hover {
+        background-color: transparent;
+        color: #F96900;
+        font-weight: bold;
+      }
+
+        .header i {
+            font-size: 25px;
+        } 
+
+
 
 .content{
     background-color: #FFFFFF;
@@ -53,24 +68,6 @@ h4{
     box-shadow: 0px 1px 1px 0px lightgray;
     }
 
-    .content a {
-        color: #232f3e;
-        padding: 5px;
-        text-decoration: none;
-        display: inline;
-    }
-      
-      /* Change color on hover */
-      .content a:hover {
-        background-color: transparent;
-        color: #F96900;
-        font-weight: bold;
-      }
-
-    i{
-        font-size: 25px;
-        padding: 0%;
-    } 
 
 
 .sidenav {
