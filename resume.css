@@ -97,7 +97,6 @@ h4{
   }
 
 
-  /* Side navigation links */
   .sidenav a {
     color: white;
     padding: 16px;
@@ -105,19 +104,15 @@ h4{
     display: block;
   }
   
-  /* Change color on hover */
   .sidenav a:hover {
     background-color: transparent;
     color: #F96900;
     font-weight: bold;
   }
-
-
  
   img{
       max-width: 50px;
       max-height: 50px;
   }
   
-  /* Style the content */
   
