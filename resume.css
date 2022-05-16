@@ -15,6 +15,10 @@
 
 
 
+
+
+
+
 body {
     background-color: #f4f5f6;
     font-family: Ember;
@@ -22,7 +26,7 @@ body {
 }
 
 h1, h2, h3, h4{
-    line-height: 40%;
+    line-height: 1;
 }
 
 h4{
@@ -33,7 +37,7 @@ h4{
     background-color: #FFFFFF;
     padding: 20px;
     margin: 20px 0px 0px 200px;
-    line-height: 1.6;
+    line-height: 1;
     border-style: solid;
     border-width: .5px 2px 2px 2px;
     border-color: lightgray;
@@ -56,6 +60,14 @@ h4{
         .header i {
             font-size: 28px;
         } 
+        @media screen and (max-width: 600px) {
+            div.header{
+              margin-left: 0px;
+            }
+        }
+
+
+
 
 
 
@@ -63,7 +75,7 @@ h4{
     background-color: #FFFFFF;
     padding: 20px;
     margin: 20px 0px 0px 200px;
-    line-height: 1.6;
+    line-height: 1;
     border-style: solid;
     border-width: .5px 2px 2px 2px;
     border-color: lightgray;
@@ -81,6 +93,14 @@ h4{
     .content a:hover {
         text-decoration: underline;
       }
+
+      @media screen and (max-width: 600px) {
+        div.content{
+          margin-left: 0px;
+        }
+    }
+
+
 
 
 
@@ -110,9 +130,15 @@ h4{
     font-weight: bold;
   }
  
+  @media screen and (max-width: 600px) {
+    div.sidenav {
+      display: none;
+    }
+}
+
+
+
   img{
       max-width: 50px;
       max-height: 50px;
   }
-  
-  
